@@ -213,7 +213,7 @@ Logon X
 ```bash
 DISPLAY=[Your IP 192.168.x.x]:0.0; export DISPLAY
 ```
-Login เข้า User `oracle`
+Login เข้า User `oracle` และดาวน์โหลกไฟล์ [Oracle Database 21c](https://www.oracle.com/th/database/technologies/oracle-database-software-downloads.html#db_ee)
 ```bash
 # Unzip software.
 cd $ORACLE_HOME

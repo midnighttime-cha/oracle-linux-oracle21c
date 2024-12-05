@@ -1,4 +1,4 @@
-# ติดตั้ง Oracle Database 21c Enterprise บน Oracle Linux 8
+# ติดตั้ง Oracle Database 21c Standard บน Oracle Linux 8
 
 ## แก้ไขไฟล์ hosts
 ```bash

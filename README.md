@@ -226,9 +226,23 @@ unzip -oq /path/to/software/LINUX.X64_213000_db_home.zip
 
 จากนั้นระบบจะแสดงหน้าต่างระบบดังต่อไปนี้
 
-### 1. เลือกข้อ `Set Up  Software Only`
+1. เลือกข้อ `Set Up  Software Only`
 
 <img src="./images/1.jpg" />
+
+2. เลือกหัวข้อ `Single instance database installation`
+
+<img src="./images/2.jpg" />
+
+3. เลือกหัวข้อ `Standard Edition 2`
+
+<img src="./images/3.jpg" />
+
+4. กรอก Oracle base: `/u02/app/oradata`
+
+<img src="./images/4.jpg" />
+
+5. 
 
 จากนั้นออกจาก User oracle ไปยัง User root จากนั้นไฟล์ต่อไปนี้
 ```bash

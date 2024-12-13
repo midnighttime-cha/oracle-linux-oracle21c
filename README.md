@@ -238,11 +238,23 @@ unzip -oq /path/to/software/LINUX.X64_213000_db_home.zip
 
 <img src="./images/3.jpg" />
 
-4. กรอก Oracle base: `/u02/app/oradata`
+4. กรอก Oracle base: `/u02/oradata`
 
 <img src="./images/4.jpg" />
 
-5. 
+5. กรอก `/u02/app/orainventory`
+
+<img src="./images/5.jpg" />
+
+6. เลือก User `oracle`
+
+<img src="./images/6.jpg" />
+
+7. เลือก `Automatically run configuration scripts` จากนั้นเลือก `Use "root" user credential` จากนั้นกรอก Password ของ root
+
+<img src="./images/7.jpg" />
+
+8. 
 
 จากนั้นออกจาก User oracle ไปยัง User root จากนั้นไฟล์ต่อไปนี้
 ```bash

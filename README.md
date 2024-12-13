@@ -226,6 +226,8 @@ unzip -oq /path/to/software/LINUX.X64_213000_db_home.zip
 
 จากนั้นระบบจะแสดงหน้าต่างระบบดังต่อไปนี้
 
+### 1. เลือกข้อ `Set Up  Software Only`
+
 <img src="./images/1.jpg" />
 
 จากนั้นออกจาก User oracle ไปยัง User root จากนั้นไฟล์ต่อไปนี้

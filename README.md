@@ -250,6 +250,10 @@ dbca
 
 <img src="./images/13.png" />
 
+- เลือก Advanced Configuration
+
+<img src="./images/13.jpg" />
+
 ## หลังจากติดตั้ง
 แก้ไขไฟล์
 ```bash

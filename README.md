@@ -292,7 +292,7 @@ dbca
 <img src="./images/17.jpg" />
 
 - ตั้งค่าตามรูปแล้วกด OK
-<img src="./images/19.jpg" />
+<img src="./images/db-1.png" />
 
 ## หลังจากติดตั้ง
 แก้ไขไฟล์

@@ -218,7 +218,17 @@ unzip -oq /path/to/software/LINUX.X64_213000_db_home.zip
 
 <img src="./images/7.png" />
 
-8. 
+8. เลือก `Fix & Check Again` จากนั้นเลือก `OK`
+
+<img src="./images/10.jpg" />
+
+9. รอการติดตั้ง
+
+<img src="./images/11.jpg" />
+
+10. ติดตั้งเสร็จสิ้น
+
+<img src="./images/12.png" />
 
 จากนั้นออกจาก User oracle ไปยัง User root จากนั้นไฟล์ต่อไปนี้
 ```bash

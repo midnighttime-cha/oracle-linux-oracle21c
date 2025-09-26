@@ -260,6 +260,15 @@ dbca
 - กรอก Global Database Name และช่อง SID เป็นชื่อที่ต้องการเช่น cdb และในช่อง PDBname เป็นชื่อ Database เป็นลำดับ เช่น cdbpdb1
 <img src="./images/15.jpg" />
 
+- เลือก Use following for the database storage attributes และติ๊กเลือก Use Oracle-Managed Files (OMF)
+<img src="./images/16.jpg" />
+
+- เลือก Enable archiving และกดปุ่ม Edit archive mode parameters
+<img src="./images/17.jpg" />
+
+- ตั้งค่าตามรูปแล้วกด OK
+<img src="./images/19.jpg" />
+
 ## หลังจากติดตั้ง
 แก้ไขไฟล์
 ```bash

@@ -256,6 +256,12 @@ As a root user, execute the following script(s):
 - เลือก No
 <img src="./images/netca-6.png" />
 
+- เลือก Next
+<img src="./images/netca-7.png" />
+
+- เลือก Finish
+<img src="./images/netca-8.png" />
+
 ### สร้าง Dabase
 ```bash
 # Start the listener.

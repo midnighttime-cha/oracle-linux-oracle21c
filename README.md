@@ -33,32 +33,6 @@ curl -o oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm https://yum.oracle.c
 dnf -y localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
 ```
 
-### Manual installation
-```bash
-nano /etc/sysctl.conf
-```
-
-```bash
-/sbin/sysctl -p
-```
-
-```bash
-nano /etc/security/limits.d/oracle-database-preinstall-21c.conf
-```
-
-```bash
-oracle   soft   nofile    1024
-oracle   hard   nofile    65536
-oracle   soft   nproc    16384
-oracle   hard   nproc    16384
-oracle   soft   stack    10240
-oracle   hard   stack    32768
-oracle   hard   memlock    134217728
-oracle   soft   memlock    134217728
-oracle   soft   data    unlimited
-oracle   hard   data    unlimited
-```
-
 ## ติดตั้ง Package
 ```bash
 dnf install -y bc

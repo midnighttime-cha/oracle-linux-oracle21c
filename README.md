@@ -312,6 +312,25 @@ dbca
 - เลือก Create Database | Click ปุ่ม Customize Storage Locations
 <img src="./images/db-6.png" />
 
+- ข้อ 1,2,3 เปลี่ยนจาก File Size เป็น 100 และเปลี่ยน K Bytes เป็น M Bytes
+<img src="./images/db-7.png" />
+<img src="./images/db-8.png" />
+<img src="./images/db-9.png" />
+
+- Click ที่ Redo Log Groups และ Click ปุ่ม Add Click เปลี่ยนจาก File Size เป็น 100 และเปลี่ยน K Bytes เป็น M Bytes และกดปุ่ม OK
+<img src="./images/db-10.png" />
+<img src="./images/db-11.png" />
+<img src="./images/db-12.png" />
+
+- Click ปุ่ม Finish
+<img src="./images/db-13.png" />
+
+- รอสักครู่
+<img src="./images/db-14.png" />
+
+- เลือก Close
+<img src="./images/db-15.png" />
+
 ## หลังจากติดตั้ง
 แก้ไขไฟล์
 ```bash

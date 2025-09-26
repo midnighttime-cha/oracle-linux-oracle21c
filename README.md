@@ -307,8 +307,10 @@ dbca
 <img src="./images/db-4.png" /> 
 
 - เลือก Use the same administrative password for all accounts ช่อง Password, Confirm Password, Oracle home user password ระบุ
+<img src="./images/db-5.png" />
+
 - เลือก Create Database | Click ปุ่ม Customize Storage Locations
-- 
+<img src="./images/db-6.png" />
 
 ## หลังจากติดตั้ง
 แก้ไขไฟล์

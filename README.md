@@ -238,8 +238,23 @@ As a root user, execute the following script(s):
 ```
 
 ### สร้าง Listner
-- พิมพ์คำสั่ง `netca` ใน terminal
-<img src="./images/netca-1.png" />  
+- พิมพ์คำสั่ง `netca` ใน terminal เมื่อแสดงหน้าต่างตั้งขึ้นมาให้เลือก Listener Configuration จากน้นกด Next
+<img src="./images/netca-1.png" />
+
+- เลือก Add และกด Next
+<img src="./images/netca-2.png" />
+
+- กรอกชื่อ Listener
+<img src="./images/netca-3.png" />
+
+- เลือก Next
+<img src="./images/netca-4.png" />
+
+- เลือก Use another port number จากนั้นกรอกเลข port ที่ต้องการ
+<img src="./images/netca-5.png" />
+
+- เลือก No
+<img src="./images/netca-6.png" />
 
 ### สร้าง Dabase
 ```bash

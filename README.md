@@ -202,11 +202,11 @@ unzip -oq /path/to/software/LINUX.X64_213000_db_home.zip
 
 <img src="./images/3.jpg" />
 
-4. กรอก Oracle base: `/u02/oradata`
+4. กรอก Oracle base: `/u01/app/oracle`
 
 <img src="./images/4.jpg" />
 
-5. กรอก `/u02/app/orainventory`
+5. กรอก `/u01/app/oraInventory`
 
 <img src="./images/5.jpg" />
 

@@ -216,7 +216,7 @@ unzip -oq /path/to/software/LINUX.X64_213000_db_home.zip
 
 7. เลือก `Automatically run configuration scripts` จากนั้นเลือก `Use "root" user credential` จากนั้นกรอก Password ของ root
 
-<img src="./images/7.jpg" />
+<img src="./images/7.png" />
 
 8. 
 

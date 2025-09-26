@@ -172,16 +172,6 @@ chown -R oracle:oinstall /home/oracle/scripts
 chmod u+x /home/oracle/scripts/*.sh
 ```
 
-## แก้ไขไฟล์ `/etc/oratab`
-```bash
-nano /etc/oratab
-```
-
-```bash
-~/scripts/start_all.sh
-~/scripts/stop_all.sh
-```
-
 ## ติดตั้ง
 Logon X
 ```bash

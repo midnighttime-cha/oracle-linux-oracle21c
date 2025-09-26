@@ -237,7 +237,11 @@ As a root user, execute the following script(s):
         2. /u01/app/oracle/product/21.0.0/dbhome_1/root.sh
 ```
 
-สร้าง Dabase
+### สร้าง Listner
+- พิมพ์คำสั่ง `netca` ใน terminal
+<img src="./images/netca-1.png" />  
+
+### สร้าง Dabase
 ```bash
 # Start the listener.
 lsnrctl start

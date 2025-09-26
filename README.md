@@ -254,6 +254,12 @@ dbca
 
 <img src="./images/13.jpg" />
 
+- เลือก Database Type เป็น Oracle Single Instance database และ Select a template for your database ให้เลือก General Purpose or Transaction Processing
+<img src="./images/14.jpg" />
+
+- กรอก Global Database Name และช่อง SID เป็นชื่อที่ต้องการเช่น cdb และในช่อง PDBname เป็นชื่อ Database เป็นลำดับ เช่น cdbpdb1
+<img src="./images/15.jpg" />
+
 ## หลังจากติดตั้ง
 แก้ไขไฟล์
 ```bash

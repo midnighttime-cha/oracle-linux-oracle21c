@@ -212,7 +212,7 @@ unzip -oq /path/to/software/LINUX.X64_213000_db_home.zip
 
 6. เลือก User `oracle`
 
-<img src="./images/6.jpg" />
+<img src="./images/6.png" />
 
 7. เลือก `Automatically run configuration scripts` จากนั้นเลือก `Use "root" user credential` จากนั้นกรอก Password ของ root
 

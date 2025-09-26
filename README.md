@@ -304,6 +304,8 @@ dbca
 <img src="./images/db-3.png" />
 
 - เลือก Configure Enterprise Manager (EM) database express และช่อง EM database express port ระบุ 5500
+<img src="./images/db-4.png" />
+
 - เลือก Use the same administrative password for all accounts ช่อง Password, Confirm Password, Oracle home user password ระบุ
 - เลือก Create Database | Click ปุ่ม Customize Storage Locations
 - 

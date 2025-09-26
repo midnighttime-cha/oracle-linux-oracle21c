@@ -294,6 +294,20 @@ dbca
 - ตั้งค่าตามรูปแล้วกด OK
 <img src="./images/db-1.png" />
 
+- กด Next
+<img src="./images/db-2.png" />
+
+- เลือก Tab Sizing ในช่อง Processes กรอกเลขตามเงื่อนไขที่ต้องการ คือ ตัวกำหนดจำนวน process สูงสุด ที่ Oracle อนุญาต (รวมทั้ง user sessions และ background processes)
+-- 50–200 → สำหรับ test/dev เล็ก ๆ
+-- 500–1000 → สำหรับ production ขนาดกลาง
+-- 2000+ → สำหรับ production ขนาดใหญ่ ที่มี concurrent users เยอะ
+<img src="./images/db-3.png" />
+
+- เลือก Configure Enterprise Manager (EM) database express และช่อง EM database express port ระบุ 5500
+- เลือก Use the same administrative password for all accounts ช่อง Password, Confirm Password, Oracle home user password ระบุ
+- เลือก Create Database | Click ปุ่ม Customize Storage Locations
+- 
+
 ## หลังจากติดตั้ง
 แก้ไขไฟล์
 ```bash

@@ -348,3 +348,35 @@ alter pluggable database ${PDB_NAME} save state;
 exit;
 EOF
 ```
+
+
+### ตั้งค่าให้ Oracle ทำการ Auto start เมื่อ server ทำการ Startup
+- สร้างไฟล์ service
+```
+nano /etc/systemd/system/oracle.service
+```
+- ตั้งค่าคำสั่งตามนี้
+```
+[Unit]
+Description=Oracle Database Service
+After=network.target
+
+[Service]
+Type=forking
+User=oracle
+ExecStart=/u01/app/oracle/product/21.0.0/dbhome_1/bin/dbstart /u01/app/oracle/product/21.0.0/dbhome_1
+ExecStop=/u01/app/oracle/product/21.0.0/dbhome_1/bin/dbshut /u01/app/oracle/product/21.0.0/dbhome_1
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+```
+- จากนั้น enable service
+```
+sudo systemctl daemon-reexec
+sudo systemctl enable oracle.service
+sudo systemctl start oracle.service
+```
+
+- จากนั้นทำการ Reboot แล้วทดสอบ Connect ดู เท่านี้ก็เสร็จเรียบร้อย
+
